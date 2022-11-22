@@ -8,10 +8,10 @@
 ![formula](https://render.githubusercontent.com/render/math?math=\color{black}\large\f(x)=sin(x))
 
 
-<img src="https://render.githubusercontent.com/render/math?math={\color{black} \displaystyle\sum_{d=0}^{d_{max}}}">
+<img src="https://render.githubusercontent.com/render/math?math={\color{black} \displaystyle\sum_{dd=0}^{d_{max}}}">
 
 
-![formula](https://render.githubusercontent.com/render/math?math=\color{black} \displaystyle\CrosEntropyLoss = \sum_{h} y_h log(\hat y_h))
+![formula](https://render.githubusercontent.com/render/math?math=\color{black} \displaystyle\sum_{h} y_h log(\hat y_h))
 
 
 ![formula](https://render.githubusercontent.com/render/math?math=\color{black}\large\frac{\partial E_{total}}{\partial W_{j}} = \frac{\partial E_{total}}{\partial yHat} * \frac{\partial yHat}{\partial Z^{1}_{i}} * \frac{\partial Z^{1}_{i}}{\partial W_{j}})
