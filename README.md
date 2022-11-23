@@ -41,8 +41,8 @@ Categorical cross-entropy loss is give by below equation, lets calculate the los
 
 Lets plugin the numbers we have and calculate the loss.
 
-![](https://latex.codecogs.com/gif.latex?CrosEntropyLoss%20%3D%20-%5B1.0%20*%20log_2%280.4794433%29%20&plus;%200.0%20*%20log_2%28%200.35493179%29%20&plus;%200.0%20*%20log_2%280.16562491%29%5D)
+![](https://latex.codecogs.com/gif.latex?-%5B1.0%20*%20log_2%280.4794433%29%20&plus;%200.0%20*%20log_2%28%200.35493179%29%20&plus;%200.0%20*%20log_2%280.16562491%29%5D)
 
 ![](https://latex.codecogs.com/gif.latex?CrosEntropyLoss%20%3D%20-log_2%280.4794433%29)
 
-![](https://latex.codecogs.com/gif.latex?CrosEntropyLoss%20%3D%201.0605678)
+<img src=https://latex.codecogs.com/gif.latex?CrosEntropyLoss%20%3D%201.0605678>
