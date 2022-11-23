@@ -23,4 +23,7 @@ Lets Calculate, this is summation of product of input and weights, generally.
 e^{i\tau} - 1 = 0
 ```
 
-'$Z_{1}^{1}$'
+`$Z_{1}^{1}$`
+
+
+$`Z_{1}^{1}`$
