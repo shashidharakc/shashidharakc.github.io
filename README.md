@@ -65,3 +65,5 @@ $`Z_{1}^{1}`$
 $$
 f(a) = \frac{1}{2\pi i} \oint_{\gamma}\frac{f(z)}{z-a} dz.
 $$
+
+![test equation](https://latex.codecogs.com/gif.latex?Z_%7B1%7D%5E%7B1%7D%20%3D%20x%5E%7B1%7D%20*%20w_%7B11%7D%5E%7B1%7D%20&plus;%20x%5E%7B2%7D%20*%20w_%7B12%7D%5E%7B1%7D%20&plus;%20x%5E%7B3%7D%20*%20w_%7B13%7D%5E%7B1%7D%20&plus;%20x_%7B4%7D%20*%20w_%7B14%7D%5E%7B1%7D)
