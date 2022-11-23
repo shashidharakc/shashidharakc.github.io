@@ -25,3 +25,6 @@
 $\theta_{ij} : = \theta_{ij} - \alpha * \frac{\partial CE}{\partial \theta_{ij}}$  
 
 
+## $\theta_{ij} : = \theta_{ij} - \alpha * \frac{\partial CE}{\partial \theta_{ij}}$      
+
+
