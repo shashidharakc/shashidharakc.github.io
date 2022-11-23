@@ -53,7 +53,7 @@ $        = 1.0605678 $
 <img src="https://render.githubusercontent.com/render/math?math=a^{2} %2B b^{2} = c^{2}">
 
 ```math
-$`e^{i\tau} - 1 = 0`$
+`$e^{i\tau} - 1 = 0$`
 ```
 
 `$Z_{1}^{1}$`
