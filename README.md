@@ -17,6 +17,6 @@ Lets Calculate, this is summation of product of input and weights, generally.
 
 so, 
 
-<img src="https://render.githubusercontent.com/render/math?math={\color{black} \displaystyle\Z_{1}^{1} = x^{1} * w_{11}^{1} + x^{2} * w_{12}^{1} + x^{3} * w_{13}^{1} + x_{4} * w_{14}^{1}}">
+<img src="https://render.githubusercontent.com/render/math?math={\color{black} \displaystyle\Z_{1}^{1} = x^{1} * w_{11}^{1}}">
 
 When we plug in the number which yields 
