@@ -1,4 +1,4 @@
-## **How Weights are updated during BackProp**
+**Back Propagation In Cross Entropy Loss with Softmax**
 
 
 In this Blog/ notebook we will discuss how weights of the network are updated/ adjusted in a simple classification model. For this we are considering Iris dataset which has 3 class, 4 features for each data point. We will build our netowrk using JAX both Stax api and custom model, we will use Categorical Cross entropy loss with softmax as final layer, with no hidden layer. No hidden layer cos of simplicity of network, we are not building a model that solves the problem with great accuracy, but we just want to understand how weights are adjusted based on the error. By the end of this blog we should have a better understanding of how the weights are updated in classification model.
@@ -27,3 +27,8 @@ e^{i\tau} - 1 = 0
 
 
 $`Z_{1}^{1}`$
+
+
+$$
+f(a) = \frac{1}{2\pi i} \oint_{\gamma}\frac{f(z)}{z-a} dz.
+$$
