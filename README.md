@@ -17,4 +17,4 @@ Lets Calculate, this is summation of product of input and weights, generally.
 
 <img src="https://render.githubusercontent.com/render/math?math=\sum_{n=0}^\infty\frac{1}{2^n}">
 
-<img src="https://render.githubusercontent.com/render/math?math=\Z_{1}^{1}=x^{1}*w_{11}^{1}">
+<img src="https://render.githubusercontent.com/render/math?math=Z_{1}^{1}=x^{1}*w_{11}^{1}">
