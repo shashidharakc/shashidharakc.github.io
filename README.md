@@ -13,57 +13,36 @@ Apart from the inputs and weights we have shown in the figure above, lets say we
 
 Now Lets go through forward pass. What we have so far is input data, ***X*** nd randomly initiallized weights ***W***, easy of understanding we will ommit the bias and procced. 
 
-Lets Calculate $Z_{1}^{1}$, this is summation of product of input and weights, generally  $Z = \sum_{i} = x_{i} * w_{i} $. 
+Lets Calculate ![](https://latex.codecogs.com/gif.latex?Z_%7B1%7D%5E%7B1%7D), this is summation of product of input and weights, generally ![](https://latex.codecogs.com/gif.latex?Z%20%3D%20%5Csum_%7Bi%7D%20%3D%20x_%7Bi%7D%20*%20w_%7Bi%7D). 
 
-so, $Z_{1}^{1} = x^{1} * w_{11}^{1} + x^{2} * w_{12}^{1} + x^{3} * w_{13}^{1} + x_{4} * w_{14}^{1}$
+so, ![test equation](https://latex.codecogs.com/gif.latex?Z_%7B1%7D%5E%7B1%7D%20%3D%20x%5E%7B1%7D%20*%20w_%7B11%7D%5E%7B1%7D%20&plus;%20x%5E%7B2%7D%20*%20w_%7B12%7D%5E%7B1%7D%20&plus;%20x%5E%7B3%7D%20*%20w_%7B13%7D%5E%7B1%7D%20&plus;%20x_%7B4%7D%20*%20w_%7B14%7D%5E%7B1%7D)
 
 When we plug in the number which yields 
 
-$Z_{1}^{1} = (0.81 * 0.15) + (0.57 * 0.29) + (0.28 * 0.10) + (0.84 * 0.71) = 0.91119$
+![](https://latex.codecogs.com/gif.latex?Z_%7B1%7D%5E%7B1%7D%20%3D%20%280.81%20*%200.15%29%20&plus;%20%280.57%20*%200.29%29%20&plus;%20%280.28%20*%200.10%29%20&plus;%20%280.84%20*%200.71%29%20%3D%200.91119)
 
-similarly $Z_{2}^{1} = 0.6105, Z_{3}^{1} = -0.1517$
+similarly ![](https://latex.codecogs.com/gif.latex?Z_%7B2%7D%5E%7B1%7D%20%3D%200.6105%2C%20Z_%7B3%7D%5E%7B1%7D%20%3D%20-0.1517)
 
 Now we calculate sofmax of the $Z$ ouput using below equation 
 
-$softmax(Y_{i}) = \frac {e^{y_{i}}}{\sum_{j=1}^{J} e^{y_{j}} }$
+![](https://latex.codecogs.com/gif.latex?softmax%28Y_%7Bi%7D%29%20%3D%20%5Cfrac%20%7Be%5E%7By_%7Bi%7D%7D%7D%7B%5Csum_%7Bj%3D1%7D%5E%7BJ%7D%20e%5E%7By_%7Bj%7D%7D%20%7D)
 
 Plugging the logits i.e $Z$ to the above softamx equation we get 
 
-$0.4794433, 0.35493179, 0.16562491$
+![](https://latex.codecogs.com/gif.latex?0.4794433%2C%200.35493179%2C%200.16562491)
 
 Categorical cross-entropy loss is give by below equation, lets calculate the loss using all the data we have so far.
 
-$\text CrosEntropyLoss = \sum_{h} y_h log(\hat y_h)$
+![](https://latex.codecogs.com/gif.latex?CrosEntropyLoss%20%3D%20%5Csum_%7Bh%7D%20y_h%20log%28%5Chat%20y_h%29)
 
-$E(\theta) = \frac{1}{m} \sum_{i=1}^{m} L(y, \hat y)$
+![](https://latex.codecogs.com/gif.latex?E%28%5Ctheta%29%20%3D%20%5Cfrac%7B1%7D%7Bm%7D%20%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%20L%28y%2C%20%5Chat%20y%29)
 
-$L_{CE} = - \sum_{i=1} T_i log(S_i)$
+![](https://latex.codecogs.com/gif.latex?L_%7BCE%7D%20%3D%20-%20%5Csum_%7Bi%3D1%7D%20T_i%20log%28S_i%29)
 
 Lets plugin the numbers we have and calculate the loss.
 
-$\text CrosEntropyLoss = -[1.0 * log_2(0.4794433) + 0.0 * log_2( 0.35493179) + 0.0 * log_2(0.16562491)]$
+![](https://latex.codecogs.com/gif.latex?CrosEntropyLoss%20%3D%20-%5B1.0%20*%20log_2%280.4794433%29%20&plus;%200.0%20*%20log_2%28%200.35493179%29%20&plus;%200.0%20*%20log_2%280.16562491%29%5D)
 
-$\text CrosEntropyLoss = -log_2(0.4794433)$
+![](https://latex.codecogs.com/gif.latex?CrosEntropyLoss%20%3D%20-log_2%280.4794433%29)
 
-$\text CrosEntropyLoss = 1.0605678$
-
-
-<img src="https://render.githubusercontent.com/render/math?math=\sum_{n=0}^\infty\frac{1}{2^n}">
-
-<img src="https://render.githubusercontent.com/render/math?math=a^{2} %2B b^{2} = c^{2}">
-
-```math
-`$e^{i\tau} - 1 = 0$`
-```
-
-`$Z_{1}^{1}$`
-
-
-$`Z_{1}^{1}`$
-
-
-$$
-f(a) = \frac{1}{2\pi i} \oint_{\gamma}\frac{f(z)}{z-a} dz.
-$$
-
-![test equation](https://latex.codecogs.com/gif.latex?Z_%7B1%7D%5E%7B1%7D%20%3D%20x%5E%7B1%7D%20*%20w_%7B11%7D%5E%7B1%7D%20&plus;%20x%5E%7B2%7D%20*%20w_%7B12%7D%5E%7B1%7D%20&plus;%20x%5E%7B3%7D%20*%20w_%7B13%7D%5E%7B1%7D%20&plus;%20x_%7B4%7D%20*%20w_%7B14%7D%5E%7B1%7D)
+![](https://latex.codecogs.com/gif.latex?CrosEntropyLoss%20%3D%201.0605678)
