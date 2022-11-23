@@ -41,11 +41,11 @@ $L_{CE} = - \sum_{i=1} T_i log(S_i)$
 
 Lets plugin the numbers we have and calculate the loss.
 
-$        = -[1.0 * log_2(0.4794433) + 0.0 * log_2( 0.35493179) + 0.0 * log_2(0.16562491)] $
+$\text CrosEntropyLoss = -[1.0 * log_2(0.4794433) + 0.0 * log_2( 0.35493179) + 0.0 * log_2(0.16562491)]$
 
-$        = - log_2(0.4794433) $
+$\text CrosEntropyLoss = -log_2(0.4794433)$
 
-$        = 1.0605678 $
+$\text CrosEntropyLoss = 1.0605678$
 
 
 <img src="https://render.githubusercontent.com/render/math?math=\sum_{n=0}^\infty\frac{1}{2^n}">
