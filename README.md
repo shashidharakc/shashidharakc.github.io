@@ -15,9 +15,9 @@ Now Lets go through a step of forward pass. What we have so far is input data, *
 
 Lets Calculate, this is summation of product of input and weights, generally.
 
-<img src="https://render.githubusercontent.com/render/math?math={\color{black} \displaystyle\sum_{d=0}^{d_{max}}}">
+<img src="https://render.githubusercontent.com/render/math?math={\color{black} \displaystyle\f(x)=sin(x)}">
 
-![formula](https://render.githubusercontent.com/render/math?math=\color{red}\large\f(x)=sin(x))
+![formula](https://render.githubusercontent.com/render/math?math=\color{red}\large\sum_{d=0}^{d_{max}})
 
 so, 
 
