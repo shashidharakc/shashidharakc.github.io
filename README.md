@@ -33,11 +33,11 @@ $0.4794433, 0.35493179, 0.16562491$
 
 Categorical cross-entropy loss is give by below equation, lets calculate the loss using all the data we have so far.
 
-$ CrosEntropyLoss = \sum_{h} y_h log(\hat y_h)$
+$\text CrosEntropyLoss = \sum_{h} y_h log(\hat y_h)$
 
-$ E(\theta) = \frac{1}{m} \sum_{i=1}^{m} L(y, \hat y)$
+$E(\theta) = \frac{1}{m} \sum_{i=1}^{m} L(y, \hat y)$
 
-$ L_{CE} = - \sum_{i=1} T_i log(S_i)$
+$L_{CE} = - \sum_{i=1} T_i log(S_i)$
 
 Lets plugin the numbers we have and calculate the loss.
 
