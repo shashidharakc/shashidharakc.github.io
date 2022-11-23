@@ -18,3 +18,8 @@ Lets Calculate, this is summation of product of input and weights, generally.
 <img src="https://render.githubusercontent.com/render/math?math=\sum_{n=0}^\infty\frac{1}{2^n}">
 
 <img src="https://render.githubusercontent.com/render/math?math=a^{2} %2B b^{2} = c^{2}">
+
+
+$'Z_{1}^{1}'$
+
+'$Z_{1}^{1}$'
