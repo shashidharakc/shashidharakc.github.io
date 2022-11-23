@@ -11,19 +11,13 @@ Apart from the inputs and weights we have shown in the figure above, lets say we
 
 ## Forward Prop
 
-<img src="https://render.githubusercontent.com/render/math?math={\color{black} \displaystyle\sum_{d=0}^{d_{max}}}">
-<img src="https://render.githubusercontent.com/render/math?math={\color{black} \displaystyle\text\E(\theta) = \frac{1}{m} \sum_{i=1}^{m} L(y, \hat y)}">
-<img src="https://render.githubusercontent.com/render/math?math={\color{black} \displaystyle\}">
-
-![formula](https://render.githubusercontent.com/render/math?math=\color{red}\large\)
-![formula](https://render.githubusercontent.com/render/math?math=\color{red}\large\)
-![formula](https://render.githubusercontent.com/render/math?math=\color{red}\large\Z = \sum_{i} = x_{i}*w{i})
-
 Now Lets go through a step of forward pass. What we have so far is input data, $X$ nd randomly initiallized weights $W$. Again for making the calcuation easy and of easy of understanding we will ommit the bias and procced. 
 
 Lets Calculate ![formula](https://render.githubusercontent.com/render/math?math=\color{red}\large\Z_{1}^{1}), this is summation of product of input and weights, generally ![formula](https://render.githubusercontent.com/render/math?math=\color{red}\large\Z = \sum_{i} = x_{i}*w{i}).
 
-so, <img src="https://render.githubusercontent.com/render/math?math={\color{black} \displaystyle\Z_{1}^{1} = x^{1} * w_{11}^{1} + x^{2} * w_{12}^{1} + x^{3} * w_{13}^{1} + x_{4} * w_{14}^{1}}">
+so, 
+
+<img src="https://render.githubusercontent.com/render/math?math={\color{black} \displaystyle\Z_{1}^{1} = x^{1} * w_{11}^{1} + x^{2} * w_{12}^{1} + x^{3} * w_{13}^{1} + x_{4} * w_{14}^{1}}">
 
 When we plug in the number which yields 
 
