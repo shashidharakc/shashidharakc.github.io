@@ -13,7 +13,7 @@ Apart from the inputs and weights we have shown in the figure above, lets say we
 
 Now Lets go through forward pass. What we have so far is input data, ***X*** nd randomly initiallized weights ***W***, easy of understanding we will ommit the bias and procced. 
 
-Lets Calculate $Z_{1}^{1}$, this is summation of product of input and weights, generally  $Z = \sum_{i} = x_{i}*w{i}$. 
+Lets Calculate $`Z_{1}^{1}`$, this is summation of product of input and weights, generally  $Z = \sum_{i} = x_{i}*w{i}$. 
 
 so, $Z_{1}^{1} = x^{1} * w_{11}^{1} + x^{2} * w_{12}^{1} + x^{3} * w_{13}^{1} + x_{4} * w_{14}^{1}$
 
@@ -29,14 +29,31 @@ $softmax(Y_{i}) = \frac {e^{y_{i}}}{\sum_{j=1}^{J} e^{y_{j}} }$
 
 Plugging the logits i.e $Z$ to the above softamx equation we get 
 
-Categorical cross-entropy loss is give by below equation $0.4794433, 0.35493179, 0.16562491$
+$0.4794433, 0.35493179, 0.16562491$
+
+Categorical cross-entropy loss is give by below equation, lets calculate the loss using all the data we have so far.
+
+$ CrosEntropyLoss = \sum_{h} y_h log(\hat y_h)$
+
+$ E(\theta) = \frac{1}{m} \sum_{i=1}^{m} L(y, \hat y)$
+
+$ L_{CE} = - \sum_{i=1} T_i log(S_i)$
+
+Lets plugin the numbers we have and calculate the loss.
+
+$        = -[1.0 * log_2(0.4794433) + 0.0 * log_2( 0.35493179) + 0.0 * log_2(0.16562491)] $
+
+$        = - log_2(0.4794433) $
+
+$        = 1.0605678 $
+
 
 <img src="https://render.githubusercontent.com/render/math?math=\sum_{n=0}^\infty\frac{1}{2^n}">
 
 <img src="https://render.githubusercontent.com/render/math?math=a^{2} %2B b^{2} = c^{2}">
 
 ```math
-$e^{i\tau} - 1 = 0$
+$`e^{i\tau} - 1 = 0`$
 ```
 
 `$Z_{1}^{1}$`
