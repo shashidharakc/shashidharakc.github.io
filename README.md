@@ -19,7 +19,8 @@ Lets Calculate, this is summation of product of input and weights, generally.
 
 <img src="https://render.githubusercontent.com/render/math?math=a^{2} %2B b^{2} = c^{2}">
 
-
-$'Z_{1}^{1}'$
+```math
+e^{i\tau} - 1 = 0
+```
 
 '$Z_{1}^{1}$'
