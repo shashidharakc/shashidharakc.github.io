@@ -20,3 +20,8 @@
 ![formula](https://render.githubusercontent.com/render/math?math=\color{yellow}\large\frac{\partial E_{total}}{\partial W_{j}} = (\hat y_{i} - y_{i}) * X_{j})
 
 ![formula](https://render.githubusercontent.com/render/math?math=\color{brown}\large\theta_{ij} : = \theta_{ij} - \alpha * \frac{\partial CE}{\partial \theta_{ij}})
+
+
+$\theta_{ij} : = \theta_{ij} - \alpha * \frac{\partial CE}{\partial \theta_{ij}}$  
+
+
