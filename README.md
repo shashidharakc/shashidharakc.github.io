@@ -15,6 +15,8 @@ Now Lets go through a step of forward pass. What we have so far is input data, *
 
 Lets Calculate, this is summation of product of input and weights, generally.
 
+<img src="https://render.githubusercontent.com/render/math?math=\sum_{n=0}^\infty\frac{1}{2^n}">
+
 <img src="https://render.githubusercontent.com/render/math?math={\color{black} \displaystyle\f(x)=sin(x)}">
 
 ![formula](https://render.githubusercontent.com/render/math?math=\color{red}\sum_{d=0}^{d_{max}})
