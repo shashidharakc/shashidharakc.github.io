@@ -9,6 +9,12 @@ Below is the same diagram updated with some variables/constants updates with ran
 
 Apart from the inputs and weights we have shown in the figure above, lets say we have True Value = [1.0, 0.0, 0.0] for the give data points. Keeping these values lets go through step by step on how we update the weights.
 
+
+
+![](https://github.com/shashidharakc/mynotes.github.io/blob/main/BlogImgs/CrossEntropyNet.drawio.png)
+
+
+
 ## Forward Prop
 
 Now Lets go through forward pass. What we have so far is input data, ***X*** nd randomly initiallized weights ***W***, easy of understanding we will ommit the bias and procced. 
